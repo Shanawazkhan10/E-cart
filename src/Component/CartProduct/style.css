@@ -1,0 +1,28 @@
+.buttonStyle {
+  height: 32px;
+  white-space: 34px;
+  width: 32px;
+  border: none;
+  background-color: #720707;
+  border-radius: 10px;
+  font-size: 19px;
+  color: white;
+}
+.payButton {
+  width: 200px;
+  height: 59px;
+  background-color: #720707;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+.remove {
+  height: 44px;
+  width: 157px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: #720707;
+}

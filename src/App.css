@@ -1,0 +1,74 @@
+.App {
+  /* overflow-x: hidden; */
+  text-align: center;
+}
+
+.containers {
+  width: 80%;
+  height: 500px;
+  /* height: auto;
+  max-height: 80%; */
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+
+  margin-top: 50px;
+}
+.container img {
+  /* img { */
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  max-height: auto;
+  position: relative;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%);
+  /* } */
+}
+.slick-slide img {
+  margin: auto;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 63%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.buttons {
+  margin-top: 10px;
+  height: 50px;
+  width: 160px;
+  font-size: 21px;
+  border-radius: 14px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #720707;
+  color: white;
+}
